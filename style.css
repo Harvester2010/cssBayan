@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    min-width: 320px;
+   margin: auto;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.1em;
+    
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container {
+    width: 80%;
+}
+
+
+
+.container:hover {
+   cursor: pointer;
+   color: blue;
+
+  
+}
+
+.describe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   width: 80%;
+}
+
+
+
+.icon {
+   
+    width: 1.8em;
+    height: 1.8em;
+}
+
+
+
+.meme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    height: 70%;
+}
+
+@media (min-width:820px) {
+    h1 {
+        font-size: 1.7em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width:1920px) {
+    h1 {
+        font-size: 4.1em;
+    }
+
+    h2 {
+        font-size: 3.6em;
+    }
+}
